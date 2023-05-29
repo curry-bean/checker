@@ -618,6 +618,7 @@ lottie-player{
           margin: 0; } }
 
 .header {
+  position: relative;
   width: 100%;
   z-index: 1000;
   background: #000;
