@@ -618,7 +618,6 @@ lottie-player{
           margin: 0; } }
 
 .header {
-  position: fixed;
   width: 100%;
   z-index: 1000;
   background: #000;
@@ -858,6 +857,7 @@ lottie-player{
       .hero-img img{
         height: 625px;
         padding-left: 50px;
+        overflow: hidden;
       }
     
       .home-hero__content {
