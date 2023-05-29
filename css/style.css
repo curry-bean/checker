@@ -856,9 +856,8 @@ lottie-player{
         height: 400px;
       }
       .hero-img img{
-        height: 630px;
-        float: right;
-        padding-left: 30px;
+        height: 625px;
+        padding-left: 50px;
       }
     
       .home-hero__content {
