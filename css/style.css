@@ -223,6 +223,21 @@ sub{  font-size: 2rem;
   border-radius: 5px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
+
+  .manifesto-btn{
+    background: blue;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: transform .3s; 
+    padding: 1.5rem 8rem;
+    font-size: 2rem;
+    margin:20px;
+  }
   .btn:hover {
     transform: translateY(-3px); }
   .btn--bg {
@@ -501,8 +516,6 @@ lottie-player{
     #pulse {
       animation: pulse 2.5s infinite;
       border-radius: 10px;
-      background-color: white;
-      color: black;
       font-weight: bold;
     }
     @media only screen and (max-width: 37.5em) {
@@ -551,13 +564,13 @@ lottie-player{
     margin: 3rem auto 0 auto;
     max-width: 80rem; }
   .project-cs-hero__cta {
-    margin-top: 5rem;
     text-align: center; }
 
 .project-details__content {
-  padding: 8rem 0;
+  padding: 1rem 0;
   max-width: 90rem;
-  margin: auto; }
+  margin: auto;
+  }
   .project-details__content-title {
     font-weight: 700;
     font-size: 2.8rem;
